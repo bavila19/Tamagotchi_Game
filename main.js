@@ -20,3 +20,9 @@ form.addEventListener("submit", (event)=> {
     document.querySelector('ul').appendChild(newComment)
     commentInput.value=""
 });
+// Use setInterval for food 
+const food = document.querySelector('#food')
+//console.log (food)
+for (let food = 0; food < 10; food++) {
+    console.log(food)    
+}
