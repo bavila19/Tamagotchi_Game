@@ -1,13 +1,12 @@
    // Initialize Variables
-   var closePopup = document.getElementById("popupclose");
-   var overlay = document.getElementById("overlay");
-   var popup = document.getElementById("popup");
-
-   closePopup.onclick = function() {
+const closePopup = document.getElementById("popupclose");
+const overlay = document.getElementById("overlay");
+const popup = document.getElementById("popup");   
+closePopup.onclick = function() {
     overlay.style.display = 'none';
     popup.style.display = 'none';
 };
-//next goal is to add a new element for 
+//next goal is to add a new element for form 
 const form = document.querySelector("#form");
 form.addEventListener("submit", (event)=> {
     event.preventDefault()
