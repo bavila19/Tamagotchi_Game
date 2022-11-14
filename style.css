@@ -24,6 +24,13 @@ body{
     width: 350px;
     height: 300px;
 }
+
+.metrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
 #popup {
     position: absolute;
     text-align:left;
